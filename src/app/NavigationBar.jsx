@@ -4,12 +4,12 @@ import { Poppins } from "next/font/google";
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['300', '600']
-})
+});
 
 function NavigationBar() {
   return (
     <>
-      <div className="w-full h-[4.2rem] flex flex-row bg-black items-center justify-between">
+      <div className="fixed top-0 left-0 w-full h-[4.2rem] flex flex-row bg-black items-center justify-between shadow-md z-50">
         
         {/* Left buttons (Hidden on small screens) */}
         <div className={`hidden md:flex flex-row justify-start space-x-24 pl-56 ${poppins.className} text-xl`}>
@@ -21,7 +21,7 @@ function NavigationBar() {
         {/* Centered Logo */}
         <div className="flex-1 flex justify-center items-center">
           <a href="/">
-            <img src="/logo.jpg" alt="Cardet-Koman Logo" className="h-auto max-h-[5.5rem] " />
+            <img src="/logo2.png" alt="Cardet-Koman Logo" className="h-auto max-h-[13rem] pt-9" />
           </a>
         </div>
 
@@ -43,7 +43,7 @@ function NavigationBar() {
       </div>
 
       {/* Mobile Menu */}
-      <div id="mobile-menu" className="w-full h-auto bg-black text-white hidden">
+      <div id="mobile-menu" className="w-full h-auto bg-black text-white hidden mt-[4.2rem]">
         <div className={`flex flex-col items-center py-4 ${poppins.className}`}>
           <button className="py-2"><a href="">Usługi</a></button>
           <button className="py-2"><a href="">Galeria</a></button>
@@ -54,7 +54,11 @@ function NavigationBar() {
         </div>
       </div>
 
-      <div className="w-full h-1 bg-yellow-500"></div>
+      {/* Żółta linia pod headerem */}
+      <div className="w-full h-1 bg-yellow-500 fixed top-[4.2rem] left-0"></div>
+
+      {/* Dodaj margines do treści strony, żeby nie była schowana pod nagłówkiem */}
+      <div className="pt-[4.2rem]"></div>
     </>
   );
 }
