@@ -6,11 +6,11 @@ const poppins = Poppins({
   weight: ['300', '600']
 });
 
-function NavigationBar() {
+function NavigationBar({ isMenuOpen, setIsMenuOpen }) {
   return (
     <>
       <div className="fixed top-0 left-0 w-full h-[4.2rem] flex flex-row bg-black items-center justify-between shadow-md z-50">
-        
+
         {/* Left buttons (Hidden on small screens) */}
         <div className={`hidden md:flex flex-row justify-start space-x-24 pl-56 ${poppins.className} text-xl`}>
           <button className="hover"><a href="">Usługi</a></button>
@@ -34,16 +34,16 @@ function NavigationBar() {
 
         {/* Mobile Hamburger Menu */}
         <div className="md:hidden flex ml-auto items-center justify-end mr-5">
-          <button className="text-white" onClick={() => document.getElementById('mobile-menu').classList.toggle('hidden')}>
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
+          <button className="text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>            
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
           </button>
         </div>
       </div>
 
       {/* Mobile Menu */}
-      <div id="mobile-menu" className="w-full h-auto bg-black text-white hidden mt-[4.2rem]">
+      <div className={`w-full h-auto bg-black text-white ${isMenuOpen ? "block" : "hidden"} mt-[4.2rem]`}>
         <div className={`flex flex-col items-center py-4 ${poppins.className}`}>
           <button className="py-2"><a href="">Usługi</a></button>
           <button className="py-2"><a href="">Galeria</a></button>
