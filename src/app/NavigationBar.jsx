@@ -14,12 +14,12 @@ function NavigationBar({ isMenuOpen, setIsMenuOpen }) {
         {/* Left buttons (Hidden on small screens) */}
         <div className={`hidden md:flex flex-row justify-start space-x-24 pl-56 ${poppins.className} text-xl`}>
           <button className="hover"><a href="">Usługi</a></button>
-          <button className="hover"><a href="">Galeria</a></button>
+          <button className="hover"><a href="/Galeria">Galeria</a></button>
           <button className="hover"><a href="">O nas</a></button>
         </div>
 
         {/* Centered Logo */}
-        <div className="flex-1 flex justify-center items-center">
+        <div className={`flex-1 flex justify-center items-center `}>
           <a href="/">
             <img src="/logo2.png" alt="Cardet-Koman Logo" className="h-auto max-h-[13rem] pt-9" />
           </a>
@@ -43,7 +43,7 @@ function NavigationBar({ isMenuOpen, setIsMenuOpen }) {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`w-full h-auto bg-black text-white ${isMenuOpen ? "block" : "hidden"} mt-[4.2rem]`}>
+      <div className={`w-full h-auto pt-10 bg-black text-white ${isMenuOpen ? "block" : "hidden"} mt-[4.2rem]`}>
         <div className={`flex flex-col items-center py-4 ${poppins.className}`}>
           <button className="py-2"><a href="">Usługi</a></button>
           <button className="py-2"><a href="">Galeria</a></button>
@@ -55,7 +55,7 @@ function NavigationBar({ isMenuOpen, setIsMenuOpen }) {
       </div>
 
       {/* Żółta linia pod headerem */}
-      <div className="w-full h-1 bg-yellow-500 fixed top-[4.2rem] left-0"></div>
+      <div className="w-full h-1 bg-yellow-500 fixed top-[4.2rem] left-0 z-40"></div>
 
       {/* Dodaj margines do treści strony, żeby nie była schowana pod nagłówkiem */}
       <div className="pt-[4.2rem]"></div>
