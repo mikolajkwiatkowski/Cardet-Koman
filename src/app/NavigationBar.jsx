@@ -13,9 +13,9 @@ function NavigationBar({ isMenuOpen, setIsMenuOpen }) {
 
         {/* Left buttons (Hidden on small screens) */}
         <div className={`hidden md:flex flex-row justify-start space-x-24 pl-56 ${poppins.className} text-xl`}>
-          <button className="hover"><a href="">Usługi</a></button>
-          <button className="hover"><a href="/Galeria">Galeria</a></button>
-          <button className="hover"><a href="">O nas</a></button>
+          <button className="hover"><a href="/uslugi">Usługi</a></button>
+          <button className="hover"><a href="/galeria">Galeria</a></button>
+          <button className="hover"><a href="/o-nas">O nas</a></button>
         </div>
 
         {/* Centered Logo */}
@@ -27,9 +27,9 @@ function NavigationBar({ isMenuOpen, setIsMenuOpen }) {
 
         {/* Right buttons (Hidden on small screens) */}
         <div className={`hidden md:flex flex-row justify-end space-x-24 pr-56 ${poppins.className} text-xl`}>
-          <button className="hover"><a href="">Kontakt</a></button>
-          <button className="hover"><a href="">Opinie</a></button>
-          <button className="hover"><a href="">FAQ</a></button>
+          <button className="hover"><a href="/kontakt">Kontakt</a></button>
+          <button className="hover"><a href="/opinie">Opinie</a></button>
+          <button className="hover"><a href="/faq">FAQ</a></button>
         </div>
 
         {/* Mobile Hamburger Menu */}

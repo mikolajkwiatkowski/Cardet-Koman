@@ -60,19 +60,19 @@ function MainContent({ isMenuOpen }) {
 
 
         <div className="pt-10 pb-10 flex flex-wrap justify-center gap-6">
-          <Kafelek
+          <Kafelek width="400px" height="300px"
             title="Czyszczenie środka"
             description="Kompleksowe sprzątanie wnętrza auta – odkurzanie, pranie tapicerki i eliminacja zapachów, by wnętrze wyglądało i pachniało jak nowe."
           />
-          <Kafelek
+          <Kafelek width="400px" height="300px"
             title="Szybka realizacja"
             description="Gwarantujemy ekspresową obsługę bez utraty jakości. Twój samochód wróci do Ciebie czysty, odświeżony i gotowy do jazdy w rekordowym czasie!"
           />
-          <Kafelek
+          <Kafelek width="400px" height="300px"
             title="Oklejanie folią"
             description="Chronimy lakier przed zarysowaniami i matowieniem, jednocześnie nadając pojazdowi niepowtarzalny styl dzięki szerokiej gamie folii ochronnych i kolorowych."
           />
-          <Kafelek
+          <Kafelek width="400px" height="300px"
             title="Polerowanie"
             description="Usuwamy mikrozarysowania i przywracamy głębię koloru Twojego lakieru. Twoje auto będzie wyglądać jak prosto z salonu!"
           />

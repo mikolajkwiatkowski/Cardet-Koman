@@ -1,8 +1,8 @@
 "use client";
-import NavigationBar from '../NavigationBar.jsx'
-import Footer from '../Footer.jsx'
-import MainContent from '../MainContent.jsx'
+import NavigationBar from './../NavigationBar.jsx'
+import Footer from './../Footer.jsx'
 import { useState } from "react";
+import OpinieContent from './OpinieContent.jsx'
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
@@ -10,7 +10,7 @@ export default function Home() {
     <div className='flex flex-col min-h-screen bg-slate-700'>
     <div className="relative">
       <NavigationBar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-      <MainContent isMenuOpen={isMenuOpen} />
+      <OpinieContent isMenuOpen={isMenuOpen}/>
       <Footer></Footer>
     </div>
 

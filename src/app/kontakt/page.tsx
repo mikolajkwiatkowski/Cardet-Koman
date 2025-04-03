@@ -10,7 +10,6 @@ export default function Home() {
     <div className='flex flex-col min-h-screen bg-slate-700'>
     <div className="relative">
       <NavigationBar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-      <MainContent isMenuOpen={isMenuOpen} />
       <Footer></Footer>
     </div>
 
