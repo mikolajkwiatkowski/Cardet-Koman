@@ -76,7 +76,7 @@ function MainContent({ isMenuOpen }) {
             title="Polerowanie"
             description="Usuwamy mikrozarysowania i przywracamy głębię koloru Twojego lakieru. Twoje auto będzie wyglądać jak prosto z salonu!"
           />
-          <div className="pt-10  flex flex-wrap justify-center gap-6 px-4 md:px-10 lg:px-20">
+          <div className="pt-10  flex flex-wrap justify-center gap-6 px-4 md:px-10 lg:px-20" >
             <Statystyki />
           </div>
 
