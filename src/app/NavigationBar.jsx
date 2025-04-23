@@ -14,12 +14,12 @@ function NavigationBar({ isMenuOpen, setIsMenuOpen }) {
         {/* Left buttons (Hidden on small screens) */}
         <div className={`hidden md:flex flex-row justify-start space-x-24 pl-56 ${poppins.className} text-xl`}>
           <button className="hover"><a href="/uslugi">Usługi</a></button>
-          <button className="hover"><a href="/galeria">Galeria</a></button>
+          <button className="hover"><a href="/nasze-realizacje">Galeria</a></button>
           <button className="hover"><a href="/o-nas">O nas</a></button>
         </div>
 
         {/* Centered Logo */}
-        <div className={`flex-1 flex justify-center items-center `}>
+        <div className={`flex-1 flex justify-center items-center pr-3`}>
           <a href="/">
             <img src="/logo2.png" alt="Cardet-Koman Logo" className="h-auto max-h-[13rem] pt-9" />
           </a>
