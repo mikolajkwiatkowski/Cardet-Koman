@@ -21,7 +21,7 @@ function NaszeRealizacjeContent({ isMenuOpen }) {
       link: "/nasze-realizacje/toyota-corolla"
     },
     {
-      photo: "/cars/alfa-romeo.jpg",
+      photo: "/cars/alfa-romeo-giulia.jpg",
       name: "Alfa Romeo",
       age: "2019",
       description: "3-etapowa korekta lakieru oraz detailing wnętrza.",

@@ -33,7 +33,7 @@ function Footer() {
 
           <div className="w-full flex flex-col items-center md:flex-row justify-center gap-10 pt-5 md:pt-10">
             <div className="flex items-center">
-              <img src="/phone.svg" className="w-12 h-12" alt="phone icon" />
+              <img src="../icons/phone.svg" className="w-12 h-12" alt="phone icon" />
               <p
                 className={`font-poppinsmedium pl-5 text-xl ${poppins.className} hover:text-yellow-500`}
               >
@@ -42,7 +42,7 @@ function Footer() {
             </div>
 
             <div className="flex items-center">
-              <img src="/mail.svg" className="w-12 h-12" alt="mail icon" />
+              <img src="../icons/mail.svg" className="w-12 h-12" alt="mail icon" />
               <p
                 className={`font-poppinsmedium pl-5 text-xl ${poppins.className} hover:text-yellow-500`}
               >
@@ -61,7 +61,7 @@ function Footer() {
           <div className="w-full flex flex-row justify-center items-center gap-10 pt-5 md:pt-10">
             <a href={tiktokUrl} target="_blank" rel="noopener noreferrer">
               <img
-                src="/tiktok.svg"
+                src="../icons/tiktok.svg"
                 className="w-16 h-16 hover:scale-125 transition-transform duration-300"
                 alt="tiktok icon"
               />
@@ -69,7 +69,7 @@ function Footer() {
 
             <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
               <img
-                src="/facebook.svg"
+                src="../icons/facebook.svg"
                 className="w-19 h-19 hover:scale-125 transition-transform duration-300"
                 alt="facebook icon"
               />
@@ -77,7 +77,7 @@ function Footer() {
 
             <a href={instagramUrl} target="_blank" rel="noopener noreferrer">
               <img
-                src="/instagram.svg"
+                src="../icons/instagram.svg"
                 className="w-16 h-16 hover:scale-125 transition-transform duration-300"
                 alt="insta icon"
               />
@@ -116,7 +116,7 @@ function Footer() {
           </p>
 
           <img
-            src="/github.svg"
+            src="../icons/github.svg"
             className="w-10 h-10 hover:scale-110 transition-transform duration-300"
             alt="GitHub icon"
           />

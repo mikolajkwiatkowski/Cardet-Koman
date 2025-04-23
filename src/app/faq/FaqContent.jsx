@@ -10,23 +10,37 @@ function FaqContent({ isMenuOpen }) {
     const data = {
         title: "FAQ - Najczęściej zadawane pytania",
         rows: [
-            {
-                title: "Czy Pan Bartosz jest wolny?",
-                content: "Tak, ale lubuje się tylko w choposzkach "
-            },
-            {
-                title: "Nunc maximus, magna at ultricies elementum",
-                content: "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam."
-            },
-            {
-                title: "Curabitur laoreet, mauris vel blandit fringilla",
-                content: "Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc"
-            },
-            {
-                title: "What is the package version",
-                content: "v1.0.5"
-            }]
-    }
+          {
+            title: "Ile trwa pełny detailing auta?",
+            content:
+              "W zależności od zakresu usługi, pełny detailing może trwać od jednego do trzech dni. Dokładny czas zależy od stanu pojazdu oraz wybranego pakietu."
+          },
+          {
+            title: "Czy można zostawić auto na noc?",
+            content:
+              "Tak, dysponujemy bezpiecznym, monitorowanym miejscem, gdzie samochód może zostać na czas realizacji usługi."
+          },
+          
+          {
+            title: "Czy detailing usuwa rysy?",
+            content:
+              "Detailing lakieru obejmuje korektę, która może usunąć lub znacznie zredukować większość mikrorys i hologramów. Głębsze rysy mogą wymagać lakierowania."
+          },
+          {
+            title: "Czy detailing obejmuje wnętrze?",
+            content:
+              "Tak! Wnętrze to ważny element usługi. Oferujemy kompleksowe czyszczenie, pranie tapicerki, pielęgnację skóry oraz zabezpieczenie plastików."
+          },
+          {
+            title: "Jak się przygotować przed oddaniem auta?",
+            content:
+              "Nie musisz specjalnie przygotowywać auta. Jeśli masz cenne przedmioty – warto je zabrać, a my zajmiemy się resztą."
+          },
+          
+        ]
+      };
+      
+    
     const styles = {
         bgColor: 'neutral',
         titleTextColor: "white",

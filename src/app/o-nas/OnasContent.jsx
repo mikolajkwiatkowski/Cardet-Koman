@@ -24,10 +24,29 @@ function OnasContent({ isMenuOpen }) {
 
         {/* Kafelki pracowników */}
         <div className=" pb-10 flex flex-wrap justify-center gap-6 ">
-          <KafelekPracownik pfp="zdj2.jpg" name="Bartosz Korthals" description="Nowy nabytek w firmie, słynny w całej gminie ze swoich włosów na Ronaldo. Ostry jebaka, a to jeden z jego wielu ukrytych talentów." width="500px" height="600px" />
-          <KafelekPracownik pfp="zdj2.jpg" name="Damian Kosmatka" description="Doświadczony diagnosta i mechanik" width="500px" height="600px" />
-          <KafelekPracownik pfp="zdj2.jpg" name="Bartosz Korthals" description="Doświadczony diagnosta i mechanik" width="500px" height="600px" />
-        </div>
+        <KafelekPracownik 
+  pfp="zdj2.jpg" 
+  name="Kacper Zawada" 
+  description="Mistrz polerki i niekwestionowany król mikrofibry. Jego ulubione hasło: 'Każda rysa ma swojego pana.'" 
+  width="500px" 
+  height="600px" 
+/>
+
+<KafelekPracownik 
+  pfp="zdj3.jpg" 
+  name="Mateusz Płatek" 
+  description="Detailingowy perfekcjonista. Jeśli znajdziesz pyłek po jego robocie — masz gratis usługę (spoiler: nie znajdziesz)." 
+  width="500px" 
+  height="600px" 
+/>
+
+<KafelekPracownik 
+  pfp="zdj1.jpg" 
+  name="Aleksandra Czystość" 
+  description="Specjalistka od wnętrz — odplami nawet Twoją przeszłość. Mistrzyni w pielęgnacji tapicerki i zapachu 'nowego auta'." 
+  width="500px" 
+  height="600px" 
+/></div>
       </div>
     </>
   );
