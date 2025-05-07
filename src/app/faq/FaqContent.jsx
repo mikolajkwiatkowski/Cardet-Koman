@@ -55,7 +55,7 @@ function FaqContent({ isMenuOpen }) {
     return (
         <div className={`w-full flex-grow bg-neutral-900 transition-transform duration-300 ${isMenuOpen ? "translate-y-[-70px]" : ""} bg-[url('/kontaktbg.jpg')] flex justify-center items-center`}>
             {/* Kafelek z FAQ, prawie na całą stronę */}
-            <div className={`w-full max-w-7xl h-[500px] p-6 mt-20 mb-20 rounded-4xl bg-neutral-800 text-white shadow-xl font-bold ${poppins.className}`}>
+            <div className={`w-full max-w-7xl h-[550px] p-6 mt-20 mb-20 rounded-4xl bg-neutral-800 text-white shadow-xl font-bold ${poppins.className}`}>
                 {/* Komponent FAQ z niestandardowym tłem */}
                 <Faq 
                     data={data}

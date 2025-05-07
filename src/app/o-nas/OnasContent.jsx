@@ -12,7 +12,7 @@ function OnasContent({ isMenuOpen }) {
   return (
     <>
       <div className={`w-full flex-grow bg-neutral-900 transition-transform duration-300 bg-[url('/onasbg2.jpg')] bg-cover bg-center ${isMenuOpen ? "translate-y-[-70px]" : ""}`}>
-        
+
         {/* Wyśrodkowany nagłówek z podpisem */}
         <div className="flex flex-col justify-center items-center text-white py-10">
           <h1 className={`text-6xl font-bold ${poppins.className}`}>Nasz zespół</h1>
@@ -20,33 +20,33 @@ function OnasContent({ isMenuOpen }) {
         </div>
 
         {/* Wyśrodkowany kafelek "O nas" */}
-       
+
 
         {/* Kafelki pracowników */}
         <div className=" pb-10 flex flex-wrap justify-center gap-6 ">
-        <KafelekPracownik 
-  pfp="zdj2.jpg" 
-  name="Kacper Zawada" 
-  description="Mistrz polerki i niekwestionowany król mikrofibry. Jego ulubione hasło: 'Każda rysa ma swojego pana.'" 
-  width="500px" 
-  height="600px" 
-/>
+          <KafelekPracownik
+            pfp="zdj2v2.jpg"
+            name="Bartosz Korthals"
+            description="Mistrz polerki i niekwestionowany król mikrofibry. Jego ulubione hasło: 'Każda rysa ma swojego pana.'"
+            width="500px"
+            height="600px"
+          />
 
-<KafelekPracownik 
-  pfp="zdj3.jpg" 
-  name="Mateusz Płatek" 
-  description="Detailingowy perfekcjonista. Jeśli znajdziesz pyłek po jego robocie — masz gratis usługę (spoiler: nie znajdziesz)." 
-  width="500px" 
-  height="600px" 
-/>
+          <KafelekPracownik
+            pfp="zdj3.jpg"
+            name="Damian Kosmatka"
+            description="Detailingowy perfekcjonista. Jeśli znajdziesz pyłek po jego robocie — masz gratis usługę (spoiler: nie znajdziesz)."
+            width="500px"
+            height="600px"
+          />
 
-<KafelekPracownik 
-  pfp="zdj1.jpg" 
-  name="Aleksandra Czystość" 
-  description="Specjalistka od wnętrz — odplami nawet Twoją przeszłość. Mistrzyni w pielęgnacji tapicerki i zapachu 'nowego auta'." 
-  width="500px" 
-  height="600px" 
-/></div>
+          <KafelekPracownik
+            pfp="zdj1.jpg"
+            name="Aleksandra Czystość"
+            description="Specjalistka od wnętrz — odplami nawet Twoją przeszłość. Mistrzyni w pielęgnacji tapicerki i zapachu 'nowego auta'."
+            width="500px"
+            height="600px"
+          /></div>
       </div>
     </>
   );

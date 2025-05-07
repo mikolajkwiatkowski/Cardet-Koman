@@ -17,7 +17,7 @@ export default function Home() {
                     <RealizacjaContent
                         name="Alfa Romeo Giulica Veloce"
                         year="2021"
-                        photos={["/cars/alfa-romeo-giulia.jpg", "/cars/alfa-romeo-giulia2.jpg"]}
+                        photos={["/cars/alfa-romeo-giulia/alfa-romeo-giulia.jpg", "/cars/alfa-romeo-giulia/alfa-romeo-giulia2.jpg"]}
                         description="Renowacja klasy premium z naciskiem na perfekcyjny wygląd lakieru i ochronę detali."
 
                         details={[

@@ -14,46 +14,46 @@ const geistmono = Geist_Mono({
 function NaszeRealizacjeContent({ isMenuOpen }) {
   const auta = [
     {
-      photo: "/cars/toyota.jpg",
+      photo: "/cars/toyota/toyota.jpg",
       name: "Toyota",
       age: "2020",
       description: "Kompleksowy detailing z korektą lakieru i zabezpieczeniem ceramicznym.",
       link: "/nasze-realizacje/toyota-corolla"
     },
     {
-      photo: "/cars/alfa-romeo-giulia.jpg",
+      photo: "/cars/alfa-romeo-giulia/alfa-romeo-giulia.jpg",
       name: "Alfa Romeo",
       age: "2019",
-      description: "3-etapowa korekta lakieru oraz detailing wnętrza.",
+      description: "3-etapowa korekta lakieru oraz detailing wnętrza. Zabezpieczenie ceramiki.",
       link: "/nasze-realizacje/alfa-romeo-giulia"
     },
     {
-      photo: "/cars/brabus.jpg",
+      photo: "/cars/brabus/brabus.jpg",
       name: "Mercedes Brabus",
       age: "2021",
       description: "Mycie detailingowe, woskowanie oraz pranie tapicerki.",
       link: "/nasze-realizacje/mercedes-brabus-s"
     },
     {
-      photo: "/cars/brabus.jpg",
-      name: "Mercedes Brabus",
-      age: "2021",
+      photo: "/cars/bmw-x4/bmw-x4.jpg",
+      name: "BMW X4",
+      age: "2020",
       description: "Mycie detailingowe, woskowanie oraz pranie tapicerki.",
-      link: "/nasze-realizacje/mercedes-brabus-s"
+      link: "/nasze-realizacje/bmw-x4"
     },
     {
-      photo: "/cars/brabus.jpg",
-      name: "Mercedes Brabus",
-      age: "2021",
+      photo: "/cars/mercedesw140/mercedesw140.jpg",
+      name: "Mercedes W140",
+      age: "2000",
       description: "Mycie detailingowe, woskowanie oraz pranie tapicerki.",
-      link: "/nasze-realizacje/mercedes-brabus-s"
+      link: "/nasze-realizacje/mercedesw140"
     },
     {
-      photo: "/cars/brabus.jpg",
-      name: "Mercedes Brabus",
-      age: "2021",
+      photo: "/cars/skoda-karoq/skoda-karoq.jpg",
+      name: "Skoda Karoq",
+      age: "2023",
       description: "Mycie detailingowe, woskowanie oraz pranie tapicerki.",
-      link: "/nasze-realizacje/mercedes-brabus-s"
+      link: "/nasze-realizacje/skoda-karoq"
     },
     
   ];

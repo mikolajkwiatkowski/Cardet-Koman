@@ -17,7 +17,7 @@ export default function Home() {
                     <RealizacjaContent
                         name="Toyota Corolla"
                         year="2024"
-                        photos={["/cars/toyota.jpg", "/cars/toyota2.jpg", "/cars/toyota3.jpg"]}
+                        photos={["/cars/toyota/toyota.jpg", "/cars/toyota/toyota2.jpg", "/cars/toyota/toyota3.jpg"]}
                         description="Pełny detailing z powłoką ceramiczną i zabezpieczeniem wnętrza."
                         details={[
                             "Detailing karoserii",
