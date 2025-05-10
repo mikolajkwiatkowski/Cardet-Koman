@@ -50,8 +50,8 @@ function MainContent({ isMenuOpen }) {
             />
           </div>
           <div className="flex justify-center md:justify-end md:mr-40">
-            <button className={`bg-yellow-500 font-bold w-48 h-16 rounded-4xl text-xl text-black mt-14 md:mt-14 lg:mt-24 xl:mt-56 2xl:mt-56 ${poppins.className}`}>
-              <a href="#">Sprawdź ofertę</a>
+            <button className={`bg-yellow-500 font-bold hover:bg-yellow-600 hover:scale-125 duration-300 w-48 h-16 rounded-4xl text-xl text-black mt-14 md:mt-14 lg:mt-24 xl:mt-56 2xl:mt-56 ${poppins.className}`}>
+              <a href="/uslugi">Sprawdź ofertę</a>
             </button>
           </div>
 

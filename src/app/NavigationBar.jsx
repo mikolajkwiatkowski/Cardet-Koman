@@ -26,18 +26,32 @@ function NavigationBar({ isMenuOpen, setIsMenuOpen }) {
         </div>
 
         {/* Right buttons (Hidden on small screens) */}
-        <div className={`hidden md:flex flex-row justify-end space-x-24 pr-56 ${poppins.className} text-xl`}>
-          <button className="hover"><a href="/kontakt">Kontakt</a></button>
-          <button className="hover"><a href="/opinie">Opinie</a></button>
-          <button className="hover"><a href="/faq">FAQ</a></button>
+        <div className="hidden md:flex flex-row items-center justify-between gap-10 pr-10 min-w-[450px]">
+          {/* Grupa 3 przycisków */}
+          <div className={`flex flex-row space-x-24 ${poppins.className} text-xl pr-10`}>
+            <button className="hover"><a href="/kontakt">Kontakt</a></button>
+            <button className="hover"><a href="/opinie">Opinie</a></button>
+            <button className="hover"><a href="/faq">FAQ</a></button>
+          </div>
+
+          {/* Żółty przycisk przy prawej krawędzi */}
+          <a
+            href="/zgloszenie"
+            className={`bg-yellow-400 text-black font-semibold px-5 py-2 rounded-xl shadow hover:bg-yellow-600 hover:scale-105 transition duration-300 ${poppins.className}`}
+          >
+            Napisz do nas
+          </a>
+
         </div>
+
+
 
         {/* Mobile Hamburger Menu */}
         <div className="md:hidden flex ml-auto items-center justify-end mr-5">
-          <button className="text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>            
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-          </svg>
+          <button className="text-white" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
           </button>
         </div>
       </div>
