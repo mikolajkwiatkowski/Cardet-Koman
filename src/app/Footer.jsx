@@ -112,7 +112,7 @@ function Footer() {
           className="flex items-center space-x-2 cursor-pointer"
         >
           <p className={`text-white text-m font-bold ${geistmono.className}`}>
-            Made by Mikołaj Kwiatkowski
+            Made by students group from Politechnika Bydgoska
           </p>
 
           <img

@@ -20,7 +20,6 @@ function Statystyki() {
         Dlaczego warto nam zaufać?
       </h2>
 
-      {/* Responsywne układanie wierszy */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-10">
         <div className="text-5xl font-bold rounded-4xl bg-neutral-700 hover:bg-yellow-500 hover:text-neutral-800 px-7 py-4 w-72 text-center">
           <CountUp start={0} end={200} duration={6} />+

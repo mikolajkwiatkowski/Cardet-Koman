@@ -19,7 +19,7 @@ function NavigationBar({ isMenuOpen, setIsMenuOpen }) {
         </div>
 
         {/* Centered Logo */}
-        <div className={`flex-1 flex justify-center items-center pr-3`}>
+        <div className={`flex-1 flex justify-center  items-center pr-3`}>
           <a href="/">
             <img src="/logo2.png" alt="Cardet-Koman Logo" className="h-auto max-h-[13rem] pt-9" />
           </a>
@@ -59,12 +59,13 @@ function NavigationBar({ isMenuOpen, setIsMenuOpen }) {
       {/* Mobile Menu */}
       <div className={`w-full h-auto pt-10 bg-black text-white ${isMenuOpen ? "block" : "hidden"} mt-[4.2rem]`}>
         <div className={`flex flex-col items-center py-4 ${poppins.className}`}>
-          <button className="py-2"><a href="">Usługi</a></button>
-          <button className="py-2"><a href="">Galeria</a></button>
-          <button className="py-2"><a href="">O nas</a></button>
-          <button className="py-2"><a href="">Kontakt</a></button>
-          <button className="py-2"><a href="">Opinie klientów</a></button>
-          <button className="py-2"><a href="">FAQ</a></button>
+          <button className="py-2"><a href="/uslugi">Usługi</a></button>
+          <button className="py-2"><a href="/nasze-realizacje">Galeria</a></button>
+          <button className="py-2"><a href="/o-nas">O nas</a></button>
+          <button className="py-2"><a href="/kontakt">Kontakt</a></button>
+          <button className="py-2"><a href="/opinie">Opinie klientów</a></button>
+          <button className="py-2"><a href="/faq">FAQ</a></button>
+          <button className="py-2"><a href="/zgloszenie">Napisz do nas</a></button>
         </div>
       </div>
 
