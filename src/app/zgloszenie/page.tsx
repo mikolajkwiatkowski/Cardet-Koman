@@ -4,7 +4,6 @@ import Footer from '../Footer.jsx'
 import { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import { Poppins } from "next/font/google";
-import { Geist_Mono } from "next/font/google";
 
 const poppins = Poppins({
     subsets: ["latin"],
