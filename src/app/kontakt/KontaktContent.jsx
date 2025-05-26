@@ -40,7 +40,7 @@ function KontaktContent({ isMenuOpen }) {
                         <div className="w-full flex flex-row justify-center items-center gap-10 pt-8 md:pt-8  ">
                             <a href={tiktokUrl} target="_blank" rel="noopener noreferrer">
                                 <img
-                                    src="../icons/tiktok.svg"
+                                    src="/icons/tiktok.svg" //../icons/github.svg for local
                                     className="w-20 h-20 hover:scale-125 transition-transform duration-300"
                                     alt="tiktok icon"
                                 />
@@ -48,7 +48,7 @@ function KontaktContent({ isMenuOpen }) {
 
                             <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
                                 <img
-                                    src="../icons/facebook.svg"
+                                    src="/icons/facebook.svg"  //../icons/github.svg for local
                                     className="w-24 h-24 hover:scale-125 transition-transform duration-300"
                                     alt="facebook icon"
                                 />

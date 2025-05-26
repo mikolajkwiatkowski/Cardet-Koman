@@ -33,16 +33,15 @@ function Footer() {
 
           <div className="w-full flex flex-col items-center md:flex-row justify-center gap-10 pt-5 md:pt-10">
             <div className="flex items-center">
-              <img src="../icons/phone.svg" className="w-12 h-12" alt="phone icon" />
+              <img src="/phone.svg" className="w-12 h-12" alt="phone icon" />
               <p
                 className={`font-poppinsmedium pl-5 text-xl ${poppins.className} hover:text-yellow-500`}
               >
                 667 618 020
               </p>
             </div>
-
-            <div className="flex items-center">
-              <img src="../icons/mail.svg" className="w-12 h-12" alt="mail icon" />
+            <div className="flex items-center"> 
+              <img src="/mail.svg" className="w-12 h-12" alt="mail icon" />
               <p
                 className={`font-poppinsmedium pl-5 text-xl ${poppins.className} hover:text-yellow-500`}
               >
@@ -61,7 +60,7 @@ function Footer() {
           <div className="w-full flex flex-row justify-center items-center gap-10 pt-5 md:pt-10">
             <a href={tiktokUrl} target="_blank" rel="noopener noreferrer">
               <img
-                src="../icons/tiktok.svg"
+                src="/tiktok.svg" //../icons/github.svg for local
                 className="w-16 h-16 hover:scale-125 transition-transform duration-300"
                 alt="tiktok icon"
               />
@@ -69,7 +68,7 @@ function Footer() {
 
             <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
               <img
-                src="../icons/facebook.svg"
+                src="/facebook.svg" //../icons/github.svg for local
                 className="w-19 h-19 hover:scale-125 transition-transform duration-300"
                 alt="facebook icon"
               />
@@ -77,7 +76,7 @@ function Footer() {
 
             <a href={instagramUrl} target="_blank" rel="noopener noreferrer">
               <img
-                src="../icons/instagram.svg"
+                src="/instagram.svg" //../icons/github.svg for local
                 className="w-16 h-16 hover:scale-125 transition-transform duration-300"
                 alt="insta icon"
               />
@@ -94,7 +93,7 @@ function Footer() {
           <div className="w-full flex justify-center items-center pt-5 md:pt-10">
             <a href="https://fxprotect.com/pl/">
             <img
-              src="/fxproject.png"
+              src="/fxproject.png" 
               className="w-52 h-auto hover:scale-110 transition-transform duration-300"
               alt="Akredytowane studio logo"
             />
@@ -112,11 +111,11 @@ function Footer() {
           className="flex items-center space-x-2 cursor-pointer"
         >
           <p className={`text-white text-m font-bold ${geistmono.className}`}>
-            Made by students group from Politechnika Bydgoska
+            Made by Mikołaj Kwiatkowski
           </p>
 
           <img
-            src="../icons/github.svg"
+            src="/github.svg" //../icons/github.svg for local
             className="w-10 h-10 hover:scale-110 transition-transform duration-300"
             alt="GitHub icon"
           />
